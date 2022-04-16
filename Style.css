@@ -1,0 +1,55 @@
+body{
+    background-image: url("image/1.jpg");
+}
+
+.puzzles {
+    display: grid;
+    align-items: center;
+    width: 80vh;
+    height: 80vh;
+    margin: 0 auto;
+}
+h2{
+    background-color: rgba(193, 208, 255, 0.29);
+    color: #FFFBD1;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: midnightblue;
+    padding: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    display: block;
+}
+
+.puzzle {
+    background: url(image/2.jpg) center center / cover;
+    /*background-color: rgba(193, 208, 255, 0.29);*/
+    border: 3px solid  #FFFBD1;
+    margin-top: 25px;
+    margin-left: 5px;
+    height: 110px;
+    width: 150px;
+    display: table;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.vertical {
+    transform: rotate(90deg);
+}
+
+.horizontal {
+    transform: rotate(0deg);
+}
+
+#Sky{
+    display: none;
+}
+
+img{
+    align-items: center;
+    height: 500px;
+    margin-bottom: 300px;
+    margin-left: 25%;
+    border: 10px solid rgba(193, 208, 255, 0.29);;
+}
