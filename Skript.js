@@ -40,10 +40,11 @@ window.addEventListener("click", (e) => {
 
         // конец игры
         if (document.querySelectorAll('.horizontal').length === 0 || document.querySelectorAll('.vertical').length === 0) {
+            document.querySelector('#form').style.display = 'none';
             document.querySelector('#Sky').style.display = 'block';
             setTimeout(() => {
                 document.querySelector('#Sky').style.display = 'none';
-            }, 600000)
+            }, 60000)
             location.reload();
         }
     }
