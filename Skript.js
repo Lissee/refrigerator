@@ -45,7 +45,7 @@ window.addEventListener("click", (e) => {
             setTimeout(() => {
                 document.querySelector('#Sky').style.display = 'none';
                 location.reload();
-            }, 60000)
+            }, 22000)
         }
     }
 }, false)
