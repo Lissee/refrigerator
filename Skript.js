@@ -43,7 +43,7 @@ window.addEventListener("click", (e) => {
             document.querySelector('#Sky').style.display = 'block';
             setTimeout(() => {
                 document.querySelector('#Sky').style.display = 'none';
-            }, 200000)
+            }, 600000)
             location.reload();
         }
     }
